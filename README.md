@@ -10,3 +10,5 @@ This project is also suitable in other music game competiton.
 本项目使用了tkinter,xlrd,random库
 
 随机数的生成采用了random.randint()方法
+
+至于为什么把这么烂的代码传上来呢，主要是为了公示一下代码捏。不是黑幕选曲哦！
