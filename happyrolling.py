@@ -222,13 +222,13 @@ def forgetalllabel():#清屏，防止Entry占屏幕引起程序错误
     button_jl_rolling.place_forget()
     button_yy_rolling.place_forget()
 
-comboFormat['value']=('','神仙组','巨佬组','椰叶组') #参考文献类型combobox候选项
+comboFormat['value']=('','神仙组','巨佬组','椰叶组') #combobox候选项
 comboFormat.current(0);
 doalllabel();forgetalllabel();
 no_label();
 comboFormat.place(x=160,y=5,width=75,height=20)
 
-def comboChange(event):#如果combobox选项改变，那么将表单转成改变后对应的参考文献表单
+def comboChange(event):
     global ref_format
     ref_format=comboFormat.get()
     forgetalllabel();
